@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log*
+.idea
+prod
+sass/*.sass
+scripts/*.js
+notes.txt
+prod
+package.json
+package-lock.json
+gulpfile.js
