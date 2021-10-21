@@ -1,0 +1,384 @@
+.title--hidden {
+	display: none;
+}
+
+.blackout {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0,0,0, 0.8);
+	-webkit-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+	-webkit-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+
+.blackout--hidden {
+	opacity: 0;
+}
+
+
+.header {
+	position: absolute;
+	width: 100%;
+	padding-top: 20px;
+}
+
+
+.header__nav {
+	width: 1200px;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+
+.hero {
+	text-align: center;
+	background-image: url("../img/bgHero.png"); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 900px;
+	margin-bottom: 60px;
+	padding-top: 220px;
+}
+
+
+.hero__title {
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.hero__subtext{
+	margin: auto;
+	margin-bottom:70px;
+}
+
+.welcome {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+.welcome__title { 
+	margin-bottom: 25px;
+}
+
+.welcome__text { 
+	margin: 0 auto;
+	margin-bottom: 60px;
+	line-height: 200%;
+	max-width: 1020px;
+}
+
+.welcomeWrap {
+	margin-bottom: 105px;
+}
+
+.welcomeWrap::after {
+	background-image: url('../img/welcome.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: block;
+    height: 480px;
+    content:"";
+    margin: auto;	
+}
+
+.ourAdvantages {
+	width: 1200px;
+	margin: auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.ourAdvantages__title {
+	margin-bottom: 15px;
+}
+
+
+
+.aboutTents {
+	width: 100%;
+	position: relative;
+	overflow-x: hidden;
+	min-height: 729px;
+	margin-bottom: 200px;
+}
+
+.aboutTents::after {
+	background-image: url('../img/tent.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 729px;
+    width: 1600px;
+    content:"";
+    overflow-x: hidden;
+}
+
+.aboutTents__FlexWrap {
+	width: 1200px;
+	margin: auto;
+ 	display: -webkit-box;
+ 	display: -ms-flexbox;
+ 	display: flex;
+}
+
+.aboutTents__Wrap {
+	width: 600px;
+	padding-top: 110px;
+}
+
+.aboutTents__title {
+	margin-bottom: 25px;
+}
+
+
+.aboutTents__text {
+	margin-bottom: 185px;
+}
+
+
+.foods {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 1200px;
+	margin: auto;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: -20px;
+}
+
+.foodsWrap::after {
+	background-image: url('../img/bgFood.png');
+    background-size: 1600px 469px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 469px;
+    content:"";
+}	
+
+
+.foodsWrap {
+	position: relative;
+	width: 100%;
+	margin-bottom: 60px;
+	overflow-x: hidden;
+}
+
+
+.foods__textBlock {
+	width: 600px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+}
+
+.foods__title {
+	margin-bottom: 15px;
+}
+
+
+.photos {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+
+.photos__title {
+	margin-bottom: 40px;
+}
+
+
+.tourProgram {
+	min-height: 920px;
+	background-image: url("../img/bgTour.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+
+.tourProgram__title {
+	text-align: center;
+	margin-bottom: 20px;
+	padding-left: 300px;
+}
+
+
+.booking {
+	margin: auto;
+	margin-bottom: 80px;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.booking__formBooking {
+	margin-top: 70px;
+}
+.booking__bookingWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 1200px;
+	min-height: 700px;
+	margin: 0 auto;		
+	overflow-x: hidden;
+}
+
+.booking__textWrap {
+	z-index: 2;
+}
+
+.booking__picWrap {
+	width: 1200px;
+	min-height: 524px;
+	margin: 0 auto;	
+	margin-top:100px;
+	position: absolute;
+	overflow-x: hidden;
+	z-index: 0;
+	overflow-y: hidden;
+}
+
+.booking__picWrap:after {
+	background-image: url('../img/bgBooking.png');
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 794px; 
+    height: 524px;
+    content:"";	 
+	right: 0;
+	margin: auto;
+	overflow-x: hidden;  
+}
+
+.contacts {
+	width: 1200px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin:auto;
+	padding-bottom: 400px;
+}
+.contacts__TextWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	width: 300px;
+	height: 290px;
+	margin-top: 15px;
+}
+
+.contacts__email{
+	margin-bottom: 20px;
+}
+
+
+.contacts__text {
+	margin-bottom: 40px;
+}
+
+.contacts__button{
+	margin-bottom: 20px;
+}
+
+.contacts__secondTitle {
+	margin-bottom: 10px;
+}
+
+.socialNetwork__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.socialNetwork__item {
+	margin-right: 20px;
+}
+
+.endWrap {
+	background-image: url("../img/bgFooter.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.bottom {
+	position: relative;
+
+}
+
+.bottom__bottomWrap {
+	position: absolute;
+	top:-110px;
+	width: 100%;
+	text-align: center;
+}
+
+.bottom__logo {
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.smallText{
+	font-size: 10px;
+	color: rgba(50, 50, 50, 0.5);
+	text-decoration: none;
+}
+
+.bottom__privacyPolicy {
+	display: block;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.bottom__privacyPolicy:hover {
+	color: #E5B26F;
+}
+
+.wrap {
+	max-width: 1600px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}

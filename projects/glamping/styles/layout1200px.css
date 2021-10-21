@@ -1,0 +1,44 @@
+@media (max-width: 1220px) {
+	.header__nav {
+		width: 800px;
+	}
+
+	.hero__title {
+		width: 80%;
+	}
+
+	.hero__subtext {
+		width: 80%;
+	}
+
+	.ourAdvantages {
+		width: 800px;
+
+	}
+
+	.aboutTents__FlexWrap {
+		width: 80%;
+	}
+
+	.foods {
+		width: 800px;
+	}
+
+	.foods__textBlock {
+		width: 400px;
+	}
+
+	.booking__bookingWrap {
+		width: 90%;
+	}
+
+	.contacts {
+		width: 90%;
+	}
+
+	.contacts__TextWrap {
+		margin-right: 40px;
+	}
+}
+
+
